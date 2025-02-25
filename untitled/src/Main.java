@@ -9,7 +9,7 @@ public class Main {
         return initialAmount + 0.05*initialAmount;
     }
     public static void main(String[] args) {
-
+        //--------function call and output---------------------------
         System.out.println("Final amount is : R" + savings(prompt()));
     }
 }

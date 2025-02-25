@@ -6,14 +6,16 @@ public class Main {
         return (decade +15)*20;
     }
     public static void main(String[] args) {
+        //---------variable declaration--------------
         Scanner inputobj = new Scanner(System.in);
         int currentYear, birthYear;
 
-        //System.out.println((34 - (34%10))/10); //decade
+        //-------prompt------------------------------
         System.out.print("Enter the current year: ");
         currentYear = inputobj.nextInt();
         System.out.print("Enter your Birthyear : ");
         birthYear = inputobj.nextInt();
+        //------call function and output-------------
         System.out.println("Your premium is : R" + premium(currentYear,birthYear));
     }
 }
