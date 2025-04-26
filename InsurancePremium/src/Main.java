@@ -2,7 +2,7 @@ import  java.util.Scanner;
 public class Main {
     public static double premium(int currentYear, int birthYear){
         int age = currentYear - birthYear;
-        int decade = (age - (age%10))/10;
+        int decade = age /10;
         return (decade +15)*20;
     }
     public static void main(String[] args) {
